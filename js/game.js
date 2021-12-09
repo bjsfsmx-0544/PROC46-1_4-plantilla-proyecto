@@ -132,10 +132,7 @@ class Game{
                       }
 
                       if(obstacleGroup.isTouching(players)){
-                       // gameState = 0;
-                       // gameState = 1;
-                       // gameState = 2;
-                       // gameState = 3;
+                       //write a code to assign the value of gameState to End
                       }
                   }
                 }
@@ -168,10 +165,7 @@ class Game{
     addObstacles()
     {       
             var x, y;
-            //x= 200;
-            //x = random(0, width-100);
-            //x = random(0);
-            //x = random();
+            //write a code to create an obstacle at random x position.
             
             
             y = 0
