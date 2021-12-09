@@ -115,7 +115,7 @@ class Game{
                      
                  }
                  if(frameCount % 40 === 0){
-                    this.addObstacles()
+                    //call the addObstacles()
                  }
                  
                   if (player.index !== null) {
