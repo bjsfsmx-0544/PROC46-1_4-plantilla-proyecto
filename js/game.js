@@ -70,8 +70,8 @@ class Game{
                     
                          textSize(25);
                          fill("white");
-                         text("Player 1 :" +allPlayers.player1.score,50,50);
-                        text("Player 2 :" + allPlayers.player2.score, 50, 100);
+                         text("Jugador 1: " +allPlayers.player1.score,50,50);
+                        text("Jugador 2: " + allPlayers.player2.score, 50, 100);
                  
                  }
                 
@@ -115,7 +115,7 @@ class Game{
                      
                  }
                  if(frameCount % 40 === 0){
-                    //call the addObstacles()
+                    // Llama a la función  addObstacles()
                  }
                  
                   if (player.index !== null) {
@@ -132,7 +132,7 @@ class Game{
                       }
 
                       if(obstacleGroup.isTouching(players)){
-                       //write a code to assign the value of gameState to End
+                       // Escribe un código para asignar el valor de "gameState" a "End"
                       }
                   }
                 }
@@ -146,13 +146,13 @@ class Game{
 
     
                 showRank() {
-                    alert("Awesome !! You finished the game! You rank is :" +player.rank)
+                    alert("¡Impresionante! ¡Terminaste el juego! Tu posición es: " +player.rank)
                   }
 
                   gameOver() {
                     textSize(40)
                     fill("white")
-                    text("GAME OVER",displayWidth/2-400,displayHeight/2-200)
+                    text("FIN DEL JUEGO",displayWidth/2-400,displayHeight/2-200)
                     }
     
     end(){
@@ -165,7 +165,7 @@ class Game{
     addObstacles()
     {       
             var x, y;
-            //write a code to create an obstacle at random x position.
+            // Escribe un código para crear un obstáculo en una posición x aleatoria.
             
             
             y = 0
